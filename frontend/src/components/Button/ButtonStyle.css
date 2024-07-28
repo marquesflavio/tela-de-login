@@ -1,11 +1,8 @@
-.divButton {
-    margin: 30px 0px;
-  }
-
-  button {
-    background-color: #4CAF50; 
+button {
+    background-color: #6642f8; 
+    border: 2px solid #6642f8;
     color: white;
-    padding: 15px 32px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -13,11 +10,12 @@
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 32px;
+    width: 100%;
   }
   
   button:hover {
     background-color: white;
     color: black;
-    border: 2px solid #4CAF50;
+    border: 2px solid #6642f8;
   }

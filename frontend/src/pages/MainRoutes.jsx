@@ -1,13 +1,13 @@
 import { HashRouter, Route, Routes } from "react-router-dom"
 import FormularioLogin from "./FormularioLogin"
-import LoginComSucesso from "./LoginComSucesso"
+import HomePage from "./HomePage"
 
 const MainRoutes = () => {
     return (
         <HashRouter>
             <Routes>
                 <Route path="/" element={<FormularioLogin />} />
-                <Route path="/loginSucesso" element={<LoginComSucesso />} />
+                <Route path="/home" element={<HomePage />} />
             </Routes>
         </HashRouter>
     )
