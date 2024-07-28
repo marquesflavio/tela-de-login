@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Mock database
 const users = [
-    { email: 'a@a.com', password: '123' },
+    { email: 'teste@teste.com', password: '123456' },
 ];
 
 app.post('/login', (req, res) => {
