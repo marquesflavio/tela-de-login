@@ -1,10 +1,10 @@
-import FormularioLogin from './components/FormularioLogin'
+import MainRoutes from './components/MainRoutes'
 
 function App() {
 
   return (
     <div>
-      <FormularioLogin />
+      <MainRoutes />
     </div>
   )
 }
