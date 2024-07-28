@@ -2,7 +2,6 @@ import { useForm } from 'react-hook-form';
 import './FormularioLoginStyle.css';
 import { ErrorMessage } from '@hookform/error-message';
 import Button from '../../components/Button';
-import Input from '../../components/Input';
 
 // eslint-disable-next-line react/prop-types
 const FormularioLoginView = ({ validarFormulario }) => {
@@ -23,7 +22,7 @@ const FormularioLoginView = ({ validarFormulario }) => {
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="divInput">
                         <p>Login</p>
-                        <Input 
+                        <input 
                             type="text"
                             placeholder="Email"
                             className="input"
@@ -31,7 +30,7 @@ const FormularioLoginView = ({ validarFormulario }) => {
                         />
                         <ErrorMessage errors={errors} name="email" />
                         <p>Senha</p>
-                        <Input
+                        <input
                             type="password"
                             placeholder="Senha"
                             className="input"

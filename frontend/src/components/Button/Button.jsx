@@ -1,10 +1,12 @@
 import './ButtonStyle.css'
 // eslint-disable-next-line react/prop-types
-const Button = ({ children, onClick }) => {
+const Button = ({ children, onClick, ...props}) => {
 
     return (
         <button
-            onClick={onClick}>
+            onClick={onClick}
+            {...props}
+        >
             {children}
         </button>
     )
